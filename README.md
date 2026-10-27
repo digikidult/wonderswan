@@ -60,3 +60,9 @@ The approved hero reads: 重遊WS數碼世界 / 不一樣香港演譯.
 ## Original game covers
 
 All 14 catalogue entries and the three featured/detail project images now use original box covers. Local files live in assets/covers; catalog.json stores their paths. COVER-SOURCES.json records retrieval provenance for maintenance. No source credit text is displayed on the page, as requested. Covers are shown uncropped in full colour; these are original game editions, not Cantonese patch packaging.
+
+All 14 catalogue items now have project/# hash routes, cover cards and detail sections. Unknown descriptions and version histories are marked pending. The supplied XLSX/CSV editorial form uses stable IDs. Return a completed file to update the site; editing the spreadsheet does not automatically publish or modify the website.
+
+
+Owner-filled workbook imported on 2026-10-27: all 14 records matched by stable ID. Added translation scope, enhancement descriptions, testing, known issues and release preparation status. Current Anode version is Ver. TBB v1a and Cathode version is Ver. TBB v1c; both content-final pending UAT. No public release URLs were supplied, and no download was enabled. The older r8 wording was reconciled to the current version.
+

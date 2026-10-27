@@ -10,9 +10,10 @@ const section=`<!-- CATALOG START -->
 <div class="catalog-summary"><span><strong>${data.length}</strong>遊戲／版本</span>${Object.entries(counts).map(([k,v])=>`<span><strong>${v}</strong>${k}</span>`).join('')}</div>
 <div class="catalog-table" role="region" aria-label="完整遊戲計劃清單，可橫向捲動" tabindex="0"><table><caption>Digimon WonderSwan 遊戲計劃一覽</caption><thead><tr><th scope="col">Game</th><th scope="col">別名</th><th scope="col">Status</th><th scope="col">優化版本</th></tr></thead><tbody>${rows}</tbody></table></div>
 <p class="catalog-key">「完成」為項目開發狀態，不代表已有公開下載。「優化版本」沿用項目資料：Yes＝有；TBC＝待確認；—＝未提供資料。優化版本與中文翻譯的發佈狀態分開處理。</p>
-<p class="catalog-key">V龍獸版為香港英文版本；「格鬥之王2.0」為本頁別名。已確認的三個翻譯詳情頁可由遊戲名稱開啟，其餘項目待補充版本資料。</p></section>
+<p class="catalog-key">V龍獸版為香港英文版本；「格鬥之王2.0」為本頁別名。每個作品均可由遊戲名稱開啟獨立詳情頁；未提供的介紹及版本資料標示為待補充。</p></section>
 <!-- CATALOG END -->`;
 const file=path.join(__dirname,'index.html');let html=fs.readFileSync(file,'utf8');
 if(html.includes('<!-- CATALOG START -->'))html=html.replace(/<!-- CATALOG START -->[\s\S]*?<!-- CATALOG END -->/,section);else html=html.replace('<section id="projects"',section+'\n<section id="projects"');
 fs.writeFileSync(file,html);
 console.log(`Updated ${data.length} games: ${JSON.stringify(counts)}`);
+
