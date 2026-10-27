@@ -1,13 +1,17 @@
-/* Owner-approved bundled IPS release; file hash verified on 2026-10-27. */
+/* Each release variant owns its download metadata and SHA-256 values. */
 window.PROJECTS = [
   {
     "id": "ver-ws",
     "summary": "暴龍機玩法",
     "description": "詳細介紹待補充。",
     "stage": "完成",
-    "build": "Ver WS+ TC",
+    "build": "Ver WS+ TC · evolution-fix6",
     "theme": "amber",
     "notes": [
+      {
+        "title": "Ver WS+ TC · evolution-fix6",
+        "text": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）"
+      },
       {
         "title": "Ver WS+ TC · 補丁可下載",
         "text": "翻譯數碼獸名及物品名，改用英文輸入；加入圖鑑（主畫面按 Start+A+B）。"
@@ -16,13 +20,13 @@ window.PROJECTS = [
     "next": "-",
     "verifiedRelease": {
       "ownerApproved": true,
-      "version": "Ver WS+ TC",
+      "version": "Ver WS+ TC · evolution-fix6",
       "format": "IPS",
       "url": "downloads/Ver.WS.ips",
       "verifiedOn": "2026-10-27",
       "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
       "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "notes": "翻譯數碼獸名及物品名，改用英文輸入；加入圖鑑（主畫面按 Start+A+B）。"
+      "notes": "evolution-fix6：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
     },
     "number": "01",
     "title": "Ver.WS",
@@ -34,7 +38,7 @@ window.PROJECTS = [
     "enhancement": "Yes",
     "cover": "assets/covers/ver-ws.jpg",
     "translationScope": "數碼獸名、物品名、轉英文輸入",
-    "enhancementDetails": "增加圖鑑(主畫面按Start+A+B)",
+    "enhancementDetails": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）",
     "knownIssues": "NA",
     "testing": "Done",
     "releaseStatus": "可下載",
@@ -44,9 +48,41 @@ window.PROJECTS = [
     "credits": "",
     "sha256": {
       "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "ips": "9ab093f95d34de26325d1d6a7a7342611994891e49fa50239cbcc546b21dc077",
-      "patched": "16f9942ccc8d11bc889ced8acf29ff39ca03fa69c1accd9c7d95b5ece6778e91"
-    }
+      "ips": "14f8f934ffc73b998fb7ac6316aa9bfd68c3d51ba4b024e8ded6494edff07e69",
+      "patched": "f1d20c8783b1e13073232b501aa01e7399411c4cbe0d4ecc42310c64bcd37eea"
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": {
+          "ownerApproved": true,
+          "version": "Ver WS+ TC · evolution-fix6",
+          "format": "IPS",
+          "url": "downloads/Ver.WS.ips",
+          "verifiedOn": "2026-10-27",
+          "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
+          "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+          "notes": "evolution-fix6：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
+        },
+        "sha256": {
+          "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+          "ips": "14f8f934ffc73b998fb7ac6316aa9bfd68c3d51ba4b024e8ded6494edff07e69",
+          "patched": "f1d20c8783b1e13073232b501aa01e7399411c4cbe0d4ecc42310c64bcd37eea"
+        }
+      }
+    ],
+    "defaultVariant": "enhanced"
   },
   {
     "id": "anode-tamer",
@@ -85,7 +121,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "cathode-tamer",
@@ -124,7 +183,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "digital-partner",
@@ -158,7 +240,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "tag-tamers",
@@ -197,7 +302,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "d1-tamers",
@@ -231,7 +359,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "digimon-medley",
@@ -265,7 +416,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "veedramon-version",
@@ -299,7 +473,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "battle-spirit",
@@ -333,7 +530,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "brave-tamer",
@@ -367,7 +587,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "card-game-wsc",
@@ -401,7 +644,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "battle-spirit-15",
@@ -435,7 +701,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "d-project",
@@ -469,7 +758,30 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   },
   {
     "id": "battle-spirit-frontier",
@@ -503,6 +815,29 @@ window.PROJECTS = [
       "original": "",
       "ips": "",
       "patched": ""
-    }
+    },
+    "releaseVariants": [
+      {
+        "id": "traditional",
+        "label": "繁中版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      },
+      {
+        "id": "enhanced",
+        "label": "繁中升級版",
+        "release": null,
+        "sha256": {
+          "original": "",
+          "ips": "",
+          "patched": ""
+        }
+      }
+    ],
+    "defaultVariant": "traditional"
   }
 ];

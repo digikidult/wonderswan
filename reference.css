@@ -21,3 +21,4 @@ body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft JhengHei",sans-se
 
 .download-panel p{overflow-wrap:anywhere}.detail-columns>*{min-width:0}
 
+.version-picker{margin:0 0 20px}.version-picker label{display:block;font-size:12px;font-weight:650;margin-bottom:8px}.version-picker select{width:100%;min-width:0;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:12px;font:inherit;font-size:14px}.version-picker select:focus-visible{outline:3px solid var(--green);outline-offset:3px}.release-state{min-height:25px}
