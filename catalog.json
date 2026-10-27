@@ -1,0 +1,103 @@
+[
+  {
+    "game": "數碼暴龍 Ver. WonderSwan",
+    "alias": "Ver.WS",
+    "status": "完成",
+    "enhanced": "Yes",
+    "cover": "assets/covers/ver-ws.jpg"
+  },
+  {
+    "game": "數碼暴龍大冒險 陽極馴獸師",
+    "alias": "陽極馴獸師",
+    "status": "開發中",
+    "enhanced": "Yes",
+    "project": "anode-tamer",
+    "cover": "assets/covers/anode.jpg"
+  },
+  {
+    "game": "數碼暴龍大冒險 陰極馴獸師",
+    "alias": "陰極馴獸師",
+    "status": "開發中",
+    "enhanced": "Yes",
+    "project": "cathode-tamer",
+    "cover": "assets/covers/cathode.jpg"
+  },
+  {
+    "game": "Digimon Adventure 02: Digital Partner",
+    "alias": "Digital Partner",
+    "status": "未有計劃",
+    "enhanced": "—",
+    "cover": "assets/covers/partner.jpg"
+  },
+  {
+    "game": "數碼暴龍大冒險02 雙人馴獸師",
+    "alias": "雙人馴獸師",
+    "status": "開發中",
+    "enhanced": "—",
+    "project": "tag-tamers",
+    "cover": "assets/covers/tag.jpg"
+  },
+  {
+    "game": "數碼暴龍大冒險02 D-1馴獸師",
+    "alias": "D-1馴獸師",
+    "status": "未開始",
+    "enhanced": "—",
+    "cover": "assets/covers/d1.jpg"
+  },
+  {
+    "game": "數碼暴龍03馴獸師之王：數碼組曲（暫譯）",
+    "alias": "Medley",
+    "status": "未開始",
+    "enhanced": "—",
+    "cover": "assets/covers/medley.jpg"
+  },
+  {
+    "game": "數碼暴龍大冒險 陽／陰極馴獸師V龍獸版",
+    "alias": "陽陰極馴獸師英文版",
+    "status": "未開始",
+    "enhanced": "TBC",
+    "cover": "assets/covers/veedramon.png"
+  },
+  {
+    "game": "數碼暴龍03馴獸師之王：格鬥之王",
+    "alias": "格鬥之王",
+    "status": "未開始",
+    "enhanced": "—",
+    "cover": "assets/covers/battle.jpg"
+  },
+  {
+    "game": "數碼暴龍03馴獸師之王：聖龍之旅",
+    "alias": "聖龍之旅",
+    "status": "未開始",
+    "enhanced": "Yes",
+    "cover": "assets/covers/brave.jpg"
+  },
+  {
+    "game": "數碼暴龍卡牌遊戲 Ver. WS",
+    "alias": "卡遊Ver. WS",
+    "status": "未有計劃",
+    "enhanced": "—",
+    "cover": "assets/covers/card.jpg"
+  },
+  {
+    "game": "數碼暴龍03馴獸師之王：格鬥之王1.5",
+    "alias": "格鬥之王1.5",
+    "status": "完成",
+    "enhanced": "—",
+    "cover": "assets/covers/battle15.jpg"
+  },
+  {
+    "game": "數碼暴龍D-Project",
+    "alias": "D計劃",
+    "status": "未開始",
+    "enhanced": "—",
+    "cover": "assets/covers/dproject.jpg"
+  },
+  {
+    "game": "格鬥之王：數碼暴龍04無限地帶",
+    "alias": "格鬥之王2.0",
+    "status": "開發中",
+    "enhanced": "—",
+    "cover": "assets/covers/frontier.jpg"
+  }
+]

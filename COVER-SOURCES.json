@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ver-ws",
+    "source": "https://wikimon.net/Digital_Monster_Ver._WonderSwan",
+    "imageURL": "https://wikimon.net/images/thumb/5/51/Game_digitalmonsterverws_cover.jpg/300px-Game_digitalmonsterverws_cover.jpg",
+    "local": "assets/covers/ver-ws.jpg"
+  },
+  {
+    "id": "anode",
+    "source": "https://wikimon.net/Digimon_Adventure:_Anode_Tamer",
+    "imageURL": "https://wikimon.net/images/thumb/2/23/Digimon_adventure_anode_tamer_jp.jpg/300px-Digimon_adventure_anode_tamer_jp.jpg",
+    "local": "assets/covers/anode.jpg"
+  },
+  {
+    "id": "cathode",
+    "source": "https://wikimon.net/Digimon_Adventure:_Cathode_Tamer",
+    "imageURL": "https://wikimon.net/images/thumb/a/a6/Digimon_adventure_cathode_tamer_jp.jpg/300px-Digimon_adventure_cathode_tamer_jp.jpg",
+    "local": "assets/covers/cathode.jpg"
+  },
+  {
+    "id": "partner",
+    "source": "https://wikimon.net/Digimon_Adventure_02:_Digital_Partner",
+    "imageURL": "https://wikimon.net/images/thumb/2/2a/Game_digitalpartner_cover.jpg/300px-Game_digitalpartner_cover.jpg",
+    "local": "assets/covers/partner.jpg"
+  },
+  {
+    "id": "tag",
+    "source": "https://wikimon.net/Digimon_Adventure_02:_Tag_Tamers",
+    "imageURL": "https://wikimon.net/images/thumb/5/5f/Game_tagtamers_cover.jpg/300px-Game_tagtamers_cover.jpg",
+    "local": "assets/covers/tag.jpg"
+  },
+  {
+    "id": "d1",
+    "source": "https://wikimon.net/Digimon_Adventure_02:_D1_Tamers",
+    "imageURL": "https://wikimon.net/images/thumb/1/1b/Game_d1tamers_cover.jpg/300px-Game_d1tamers_cover.jpg",
+    "local": "assets/covers/d1.jpg"
+  },
+  {
+    "id": "medley",
+    "source": "https://wikimon.net/Digimon_Tamers:_Digimon_Medley",
+    "imageURL": "https://wikimon.net/images/thumb/3/38/Game_Digimonmedley_cover.jpg/300px-Game_Digimonmedley_cover.jpg",
+    "local": "assets/covers/medley.jpg"
+  },
+  {
+    "id": "veedramon",
+    "source": "https://wikimon.net/Digimon_Anode/Cathode_Tamer:_Veedramon_Version",
+    "imageURL": "https://wikimon.net/images/thumb/d/da/Digimon_adventure_anode_cathode_veedramon_en.png/300px-Digimon_adventure_anode_cathode_veedramon_en.png",
+    "local": "assets/covers/veedramon.png"
+  },
+  {
+    "id": "battle",
+    "source": "https://wikimon.net/Digimon_Tamers:_Battle_Spirit",
+    "imageURL": "https://wikimon.net/images/1/19/Game_battlespirit_cover.jpg",
+    "local": "assets/covers/battle.jpg"
+  },
+  {
+    "id": "brave",
+    "source": "https://wikimon.net/Digimon_Tamers:_Brave_Tamer",
+    "imageURL": "https://wikimon.net/images/thumb/b/b6/Game_bravetamer_cover.jpg/300px-Game_bravetamer_cover.jpg",
+    "local": "assets/covers/brave.jpg"
+  },
+  {
+    "id": "card",
+    "source": "https://wikimon.net/Digital_Monster_Card_Game_Ver._WSC",
+    "imageURL": "https://wikimon.net/images/thumb/a/ad/Game_cardgameverwsc_cover.jpg/300px-Game_cardgameverwsc_cover.jpg",
+    "local": "assets/covers/card.jpg"
+  },
+  {
+    "id": "battle15",
+    "source": "https://wikimon.net/Digimon_Tamers:_Battle_Spirit_Ver._1.5",
+    "imageURL": "https://wikimon.net/images/thumb/8/89/Game_battlespirit15_cover.jpg/300px-Game_battlespirit15_cover.jpg",
+    "local": "assets/covers/battle15.jpg"
+  },
+  {
+    "id": "dproject",
+    "source": "https://wikimon.net/Digital_Monster:_D-Project",
+    "imageURL": "https://wikimon.net/images/thumb/0/05/Digital_Monster_D-Project.jpg/300px-Digital_Monster_D-Project.jpg",
+    "local": "assets/covers/dproject.jpg"
+  },
+  {
+    "id": "frontier",
+    "source": "https://wikimon.net/Battle_Spirit:_Digimon_Frontier",
+    "imageURL": "https://wikimon.net/images/thumb/7/7a/Game_digimonfbf_cover.jpg/300px-Game_digimonfbf_cover.jpg",
+    "local": "assets/covers/frontier.jpg"
+  }
+]
