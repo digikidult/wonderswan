@@ -1,4 +1,4 @@
-/* Project development status and verified release are separate. SHA-256 values are blank until supplied. */
+/* Owner-approved bundled IPS release; file hash verified on 2026-10-27. */
 window.PROJECTS = [
   {
     "id": "ver-ws",
@@ -7,14 +7,28 @@ window.PROJECTS = [
     "stage": "完成",
     "build": "Ver WS+ TC",
     "theme": "amber",
-    "notes": [],
+    "notes": [
+      {
+        "title": "Ver WS+ TC · 補丁可下載",
+        "text": "翻譯數碼獸名及物品名，改用英文輸入；加入圖鑑（主畫面按 Start+A+B）。"
+      }
+    ],
     "next": "-",
-    "verifiedRelease": null,
+    "verifiedRelease": {
+      "ownerApproved": true,
+      "version": "Ver WS+ TC",
+      "format": "IPS",
+      "url": "downloads/Ver.WS.ips",
+      "verifiedOn": "2026-10-27",
+      "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
+      "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+      "notes": "翻譯數碼獸名及物品名，改用英文輸入；加入圖鑑（主畫面按 Start+A+B）。"
+    },
     "number": "01",
     "title": "Ver.WS",
     "fullTitle": "Digital Monster Ver. WonderSwan",
     "subtitle": "數碼暴龍 Ver. WonderSwan",
-    "label": "完成",
+    "label": "完成 · 可下載",
     "status": "completed",
     "devStatus": "完成",
     "enhancement": "Yes",
@@ -23,15 +37,15 @@ window.PROJECTS = [
     "enhancementDetails": "增加圖鑑(主畫面按Start+A+B)",
     "knownIssues": "NA",
     "testing": "Done",
-    "releaseStatus": "檔案準備中",
+    "releaseStatus": "可下載",
     "releaseDate": "",
     "releaseNotes": "",
-    "patchInstructions": "",
+    "patchInstructions": "先備份原版遊戲及存檔。核對原版 SHA-256 後，使用支援 IPS 的工具套用 Ver.WS.ips，再核對 Patch 後 SHA-256。IPS 檔校驗碼對應補丁本身。",
     "credits": "",
     "sha256": {
-      "original": "",
-      "ips": "",
-      "patched": ""
+      "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+      "ips": "9ab093f95d34de26325d1d6a7a7342611994891e49fa50239cbcc546b21dc077",
+      "patched": "16f9942ccc8d11bc889ced8acf29ff39ca03fa69c1accd9c7d95b5ece6778e91"
     }
   },
   {

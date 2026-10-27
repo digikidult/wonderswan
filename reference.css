@@ -15,3 +15,9 @@ body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft JhengHei",sans-se
 .project-content p,.detail-hero p,.note p{white-space:pre-line}.release-state{font-weight:650;color:var(--green)}
 
 .checksums{border-top:1px solid var(--line);margin-top:26px;padding-top:5px}.checksums h2{font-size:19px}.checksums dl{display:block;margin:0 0 24px}.checksums dt{font-size:12px;font-weight:650;color:var(--ink);margin:18px 0 5px}.checksums dd{margin:0;background:var(--paper);border:1px solid var(--line);padding:10px 12px;border-radius:4px;min-width:0}.checksums code{display:block;white-space:normal;overflow-wrap:anywhere;word-break:break-all;font-size:11px;line-height:1.8;user-select:all}.checksum-pending{font-size:12px;color:var(--muted)}
+
+.disclaimer{border-top:1px solid var(--line);padding-top:28px;padding-bottom:28px}.disclaimer h2{font-size:17px;margin-bottom:10px}.disclaimer p{font-size:12px;color:var(--muted);margin:0;line-height:1.9}
+
+
+.download-panel p{overflow-wrap:anywhere}.detail-columns>*{min-width:0}
+
