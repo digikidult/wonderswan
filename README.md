@@ -66,3 +66,7 @@ All 14 catalogue items now have project/# hash routes, cover cards and detail se
 
 Owner-filled workbook imported on 2026-10-27: all 14 records matched by stable ID. Added translation scope, enhancement descriptions, testing, known issues and release preparation status. Current Anode version is Ver. TBB v1a and Cathode version is Ver. TBB v1c; both content-final pending UAT. No public release URLs were supplied, and no download was enabled. The older r8 wording was reconciled to the current version.
 
+
+## SHA-256 fields
+
+Every project page reserves three SHA-256 entries, including unreleased projects. Edit the project's `sha256` object in `projects.js`: `original` = original ROM, `ips` = raw IPS patch file (not its ZIP archive), `patched` = resulting patched ROM. Enter the actual 64 hexadecimal characters; leave missing hashes as empty strings to show 待補充. Filling a hash does not enable a download or mark a release verified.

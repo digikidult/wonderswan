@@ -1,4 +1,4 @@
-/* Updated from owner-supplied workbook, 2026-10-27. Release links require verification. */
+/* Project development status and verified release are separate. SHA-256 values are blank until supplied. */
 window.PROJECTS = [
   {
     "id": "ver-ws",
@@ -27,7 +27,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "anode-tamer",
@@ -61,7 +66,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "cathode-tamer",
@@ -95,7 +105,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "digital-partner",
@@ -124,7 +139,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "tag-tamers",
@@ -158,7 +178,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "d1-tamers",
@@ -187,7 +212,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "digimon-medley",
@@ -216,7 +246,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "veedramon-version",
@@ -245,7 +280,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "battle-spirit",
@@ -274,7 +314,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "brave-tamer",
@@ -303,7 +348,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "card-game-wsc",
@@ -332,7 +382,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "battle-spirit-15",
@@ -361,7 +416,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "d-project",
@@ -390,7 +450,12 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   },
   {
     "id": "battle-spirit-frontier",
@@ -419,6 +484,11 @@ window.PROJECTS = [
     "releaseDate": "",
     "releaseNotes": "",
     "patchInstructions": "",
-    "credits": ""
+    "credits": "",
+    "sha256": {
+      "original": "",
+      "ips": "",
+      "patched": ""
+    }
   }
 ];
