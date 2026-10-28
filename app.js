@@ -2,7 +2,7 @@
   const $ = s => document.querySelector(s);
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeURL = value => { try { const u = new URL(value); return u.protocol === 'https:' ? u.href : null; } catch { return null; } };
-  const patchURL = r => r?.ownerApproved === true && /^downloads\/[A-Za-z0-9._+-]+\.ips$/.test(r.url) ? r.url : safeURL(r?.url);
+  const patchURL = r => r?.ownerApproved === true && typeof r.url === 'string' && !/[\\?#:%\u0000-\u001f]/.test(r.url) && r.url.split('/').every(x=>x&&x!=='.'&&x!=='..'&&!x.startsWith('.')) && /\.(ips|zip)$/i.test(r.url) ? r.url : safeURL(r?.url);
   const released = p => p.verifiedRelease && (p.status === 'released' || p.verifiedRelease.ownerApproved === true) && /^\d{4}-\d{2}-\d{2}$/.test(p.verifiedRelease.verifiedOn) && p.verifiedRelease.format === 'IPS' && patchURL(p.verifiedRelease) && (p.verifiedRelease.ownerApproved === true ? /^[a-f0-9]{64}$/i.test(p.sha256?.ips || '') : safeURL(p.verifiedRelease.source)) && p.verifiedRelease.version && p.verifiedRelease.baseROM && p.verifiedRelease.baseChecksum && p.verifiedRelease.notes;
   const contentSections = p => [['翻譯範圍 / Translation',p.translationScope],['升級化內容 / Enhancements',p.enhancementDetails],['測試狀態 / Testing',p.testing],['已知問題 / Known issues',p.knownIssues],['補丁套用方法 / Patching',p.patchInstructions],['鳴謝 / Credits',p.credits]].filter(([,value])=>value && value !== '-').map(([title,value])=>`<section class="project-content"><h2>${escape(title)}</h2><p>${escape(value)}</p></section>`).join('');
   const checksums = p => `<section class="checksums" aria-label="SHA-256 校驗碼"><h2>SHA-256 校驗碼</h2><dl>${[['original','原版'],['ips','IPS 檔'],['patched','Patch 後']].map(([key,label])=>`<dt>${label}：</dt><dd>${p.sha256?.[key] ? `<code>${escape(p.sha256[key])}</code>` : '<span class="checksum-pending">待補充</span>'}</dd>`).join('')}</dl></section>`;
@@ -27,6 +27,10 @@
     if (picker) picker.addEventListener('change', () => { const y = window.scrollY; selectedVariants.set(p.id, picker.value); route(); window.scrollTo(0,y); $('#patch-version').focus({preventScroll:true}); });
     document.title = `${p.title} — DigiKidult`; window.scrollTo(0,0); detail.focus({preventScroll:true});
   }
+  if (new URLSearchParams(location.search).get('cms-preview') === '1') window.addEventListener('message', event => {
+    if (event.source !== window.parent || event.origin !== location.origin || event.data?.type !== 'digikidult-cms-preview' || !Array.isArray(event.data.projects)) return;
+    window.PROJECTS = event.data.projects; selectedVariants.clear(); renderCards(); route();
+  });
   window.addEventListener('hashchange', route); renderCards(); route();
 })();
 
