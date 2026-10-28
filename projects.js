@@ -5,9 +5,13 @@ window.PROJECTS = [
     "summary": "暴龍機玩法",
     "description": "詳細介紹待補充。",
     "stage": "完成",
-    "build": "Ver WS+ TC · evolution-fix6",
+    "build": "Ver WS+ TC · evolution-fix6a-logo-v3",
     "theme": "amber",
     "notes": [
+      {
+        "title": "Ver WS+ TC · evolution-fix6a-logo-v3",
+        "text": "下載檔更新為 evolution-fix6a-logo-v3，IPS 檔及 Patch 後 SHA-256 已同步更新。"
+      },
       {
         "title": "Ver WS+ TC · evolution-fix6",
         "text": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）"
@@ -20,13 +24,13 @@ window.PROJECTS = [
     "next": "-",
     "verifiedRelease": {
       "ownerApproved": true,
-      "version": "Ver WS+ TC · evolution-fix6",
+      "version": "Ver WS+ TC · evolution-fix6a-logo-v3",
       "format": "IPS",
       "url": "downloads/Ver.WS.ips",
-      "verifiedOn": "2026-10-27",
+      "verifiedOn": "2026-10-28",
       "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
       "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "notes": "evolution-fix6：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
+      "notes": "evolution-fix6a-logo-v3：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
     },
     "number": "01",
     "title": "Ver.WS",
@@ -48,8 +52,8 @@ window.PROJECTS = [
     "credits": "",
     "sha256": {
       "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "ips": "14f8f934ffc73b998fb7ac6316aa9bfd68c3d51ba4b024e8ded6494edff07e69",
-      "patched": "f1d20c8783b1e13073232b501aa01e7399411c4cbe0d4ecc42310c64bcd37eea"
+      "ips": "e6c8c156b8fd5dc66e4e88195851caacb49490b9eb9bc22e3b8095ba8c04a1c4",
+      "patched": "007943d4d3867cc9fcb216c954cc281113886476cec98f0712498679245b9ff1"
     },
     "releaseVariants": [
       {
@@ -67,18 +71,18 @@ window.PROJECTS = [
         "label": "繁中升級版",
         "release": {
           "ownerApproved": true,
-          "version": "Ver WS+ TC · evolution-fix6",
+          "version": "Ver WS+ TC · evolution-fix6a-logo-v3",
           "format": "IPS",
           "url": "downloads/Ver.WS.ips",
-          "verifiedOn": "2026-10-27",
+          "verifiedOn": "2026-10-28",
           "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
           "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-          "notes": "evolution-fix6：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
+          "notes": "evolution-fix6a-logo-v3：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
         },
         "sha256": {
           "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-          "ips": "14f8f934ffc73b998fb7ac6316aa9bfd68c3d51ba4b024e8ded6494edff07e69",
-          "patched": "f1d20c8783b1e13073232b501aa01e7399411c4cbe0d4ecc42310c64bcd37eea"
+          "ips": "e6c8c156b8fd5dc66e4e88195851caacb49490b9eb9bc22e3b8095ba8c04a1c4",
+          "patched": "007943d4d3867cc9fcb216c954cc281113886476cec98f0712498679245b9ff1"
         }
       }
     ],
