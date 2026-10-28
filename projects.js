@@ -5,11 +5,11 @@ window.PROJECTS = [
     "summary": "暴龍機玩法",
     "description": "詳細介紹待補充。",
     "stage": "完成",
-    "build": "Ver WS+ TC · evolution-fix6a-logo-v3",
+    "build": "Ver WS+ TC v2",
     "theme": "amber",
     "notes": [
       {
-        "title": "Ver WS+ TC · evolution-fix6a-logo-v3",
+        "title": "Ver WS+ TC v2",
         "text": "下載檔更新為 evolution-fix6a-logo-v3，IPS 檔及 Patch 後 SHA-256 已同步更新。"
       },
       {
@@ -24,7 +24,7 @@ window.PROJECTS = [
     "next": "-",
     "verifiedRelease": {
       "ownerApproved": true,
-      "version": "Ver WS+ TC · evolution-fix6a-logo-v3",
+      "version": "Ver WS+ TC v2",
       "format": "IPS",
       "url": "downloads/Ver.WS.ips",
       "verifiedOn": "2026-10-28",
@@ -71,7 +71,7 @@ window.PROJECTS = [
         "label": "繁中升級版",
         "release": {
           "ownerApproved": true,
-          "version": "Ver WS+ TC · evolution-fix6a-logo-v3",
+          "version": "Ver WS+ TC v2",
           "format": "IPS",
           "url": "downloads/Ver.WS.ips",
           "verifiedOn": "2026-10-28",
