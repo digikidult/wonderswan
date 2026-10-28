@@ -36,7 +36,7 @@ window.PROJECTS = [
     "status": "completed",
     "devStatus": "完成",
     "enhancement": "Yes",
-    "cover": "assets/covers/ver-ws.jpg",
+    "cover": "assets/covers/ver-ws-tc.png",
     "translationScope": "數碼獸名、物品名、轉英文輸入",
     "enhancementDetails": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）",
     "knownIssues": "NA",
