@@ -3,22 +3,14 @@ window.PROJECTS = [
   {
     "id": "ver-ws",
     "summary": "暴龍機玩法",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "完成",
     "build": "Ver WS+ TC v2",
     "theme": "amber",
     "notes": [
       {
         "title": "Ver WS+ TC v2",
-        "text": "下載檔更新為 evolution-fix6a-logo-v3，IPS 檔及 Patch 後 SHA-256 已同步更新。"
-      },
-      {
-        "title": "Ver WS+ TC · evolution-fix6",
         "text": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）"
-      },
-      {
-        "title": "Ver WS+ TC · 補丁可下載",
-        "text": "翻譯數碼獸名及物品名，改用英文輸入；加入圖鑑（主畫面按 Start+A+B）。"
       }
     ],
     "next": "-",
@@ -26,11 +18,11 @@ window.PROJECTS = [
       "ownerApproved": true,
       "version": "Ver WS+ TC v2",
       "format": "IPS",
-      "url": "downloads/Ver.WS.ips",
+      "url": "downloads/Ver.WS+.ips",
       "verifiedOn": "2026-10-28",
       "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
       "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "notes": "evolution-fix6a-logo-v3：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
+      "notes": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）"
     },
     "number": "01",
     "title": "Ver.WS",
@@ -52,18 +44,27 @@ window.PROJECTS = [
     "credits": "",
     "sha256": {
       "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-      "ips": "e6c8c156b8fd5dc66e4e88195851caacb49490b9eb9bc22e3b8095ba8c04a1c4",
-      "patched": "007943d4d3867cc9fcb216c954cc281113886476cec98f0712498679245b9ff1"
+      "ips": "3f3fdc6e4e2ade4478bb30b2fa748c6c1238b99a232a4fe73919bd15ce8d4ce8",
+      "patched": "3894c2e17f313a7cdd73a0c71fb8d51e63c489fc261d3be55b09a7de953857e1"
     },
     "releaseVariants": [
       {
         "id": "traditional",
         "label": "繁中版",
-        "release": null,
+        "release": {
+          "ownerApproved": true,
+          "version": "Ver.WS TC",
+          "format": "IPS",
+          "url": "downloads/Ver.WS.ips",
+          "verifiedOn": "2026-10-28",
+          "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
+          "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
+          "notes": "翻譯數碼獸名及物品名，改用英文輸入。"
+        },
         "sha256": {
           "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-          "ips": "",
-          "patched": ""
+          "ips": "b407ddc3920c27d27b6358bcfdaa0b677a9fef02e17bd595f70c0b176f8d89b2",
+          "patched": "94dcfbadcb4c1ee7ebc670797554adb7f1373760be6588d2be758e20b2b004f1"
         }
       },
       {
@@ -73,16 +74,16 @@ window.PROJECTS = [
           "ownerApproved": true,
           "version": "Ver WS+ TC v2",
           "format": "IPS",
-          "url": "downloads/Ver.WS.ips",
+          "url": "downloads/Ver.WS+.ips",
           "verifiedOn": "2026-10-28",
           "baseROM": "Digital Monster Ver. WonderSwan（請核對原版 SHA-256）",
           "baseChecksum": "SHA-256: 381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-          "notes": "evolution-fix6a-logo-v3：翻譯數碼獸名及物品名，改用英文輸入；增加圖鑑（主畫面按 Start+A+B），加入完全體／究極體進化條件判定（育成畫面按 Start+A）。"
+          "notes": "增加圖鑑（主畫面按 Start+A+B）\n加入完全體／究極體進化條件判定（育成畫面按 Start+A）"
         },
         "sha256": {
           "original": "381fe81bfd607408e313ce9726b088568343fc7c867c8273e636f1200a19b2a2",
-          "ips": "e6c8c156b8fd5dc66e4e88195851caacb49490b9eb9bc22e3b8095ba8c04a1c4",
-          "patched": "007943d4d3867cc9fcb216c954cc281113886476cec98f0712498679245b9ff1"
+          "ips": "3f3fdc6e4e2ade4478bb30b2fa748c6c1238b99a232a4fe73919bd15ce8d4ce8",
+          "patched": "3894c2e17f313a7cdd73a0c71fb8d51e63c489fc261d3be55b09a7de953857e1"
         }
       }
     ],
@@ -215,7 +216,7 @@ window.PROJECTS = [
   {
     "id": "digital-partner",
     "summary": "未有計劃；詳細項目資料待補充。",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未有計劃",
     "build": null,
     "theme": "amber",
@@ -334,7 +335,7 @@ window.PROJECTS = [
   {
     "id": "d1-tamers",
     "summary": "秋山遼傳第三集",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "teal",
@@ -391,7 +392,7 @@ window.PROJECTS = [
   {
     "id": "digimon-medley",
     "summary": "重現經典TV劇情",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "amber",
@@ -448,7 +449,7 @@ window.PROJECTS = [
   {
     "id": "veedramon-version",
     "summary": "英文彩色版秋山遼傳第一集",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "violet",
@@ -505,7 +506,7 @@ window.PROJECTS = [
   {
     "id": "battle-spirit",
     "summary": "即時對戰 1-3代色",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "teal",
@@ -562,7 +563,7 @@ window.PROJECTS = [
   {
     "id": "brave-tamer",
     "summary": "秋山遼傳第最終章",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "amber",
@@ -619,7 +620,7 @@ window.PROJECTS = [
   {
     "id": "card-game-wsc",
     "summary": "舊DCG遊戲作品",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未有計劃",
     "build": null,
     "theme": "violet",
@@ -676,7 +677,7 @@ window.PROJECTS = [
   {
     "id": "battle-spirit-15",
     "summary": "即時對戰 更多角色",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "完成",
     "build": null,
     "theme": "teal",
@@ -733,7 +734,7 @@ window.PROJECTS = [
   {
     "id": "d-project",
     "summary": "育成+RPG",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "未開始",
     "build": null,
     "theme": "amber",
@@ -790,7 +791,7 @@ window.PROJECTS = [
   {
     "id": "battle-spirit-frontier",
     "summary": "即時對戰 04角色",
-    "description": "詳細介紹待補充。",
+    "description": "",
     "stage": "開發中",
     "build": null,
     "theme": "violet",

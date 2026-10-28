@@ -74,3 +74,14 @@ Every project page reserves three SHA-256 entries, including unreleased projects
 ## Download version selector
 
 Each project has a `releaseVariants` array. `traditional` is 繁中版; `enhanced` is 繁中升級版. Each entry owns `release` (null when unavailable) and `sha256` with original/ips/patched. Set `defaultVariant` to the selected initial ID. Ver.WS.ips includes the added encyclopedia and is assigned to 繁中升級版. No separate basic file was supplied. Selecting a variant switches its link, version notes, availability and all checksum fields. Never reuse another variant's IPS or patched-ROM hash. The original ROM hash may be shared only if both variants use the same original game.
+
+Download-panel presentation: keep release descriptions, base-ROM prose and duplicate checksum/verification statements out of the download panel for all future versions. Preserve the selector, version, download button and dedicated original/IPS/patched SHA-256 section. Release metadata remains in the data for validation and other sections.
+
+
+## Browser CMS
+
+Open `cms.html` on the deployed site or a local HTTP server. Edit project content, release variants and per-variant SHA-256, specify nested relative download paths or HTTPS links, and import cover images or IPS files. Draft text is stored in localStorage; imported files in IndexedDB. Export a JSON backup to transfer drafts. Exported update ZIPs contain projects.js, catalog.json, regenerated index.html and referenced new files. Upload extracted contents to the GitHub repository root to publish; the CMS has no backend or GitHub credentials and does not publish directly. See CMS-使用說明.md.
+
+## Integrated revision — 2026-10-28
+
+Both Ver.WS translation variants now have separate verified IPS binaries: basic downloads/Ver.WS.ips and enhanced downloads/Ver.WS+.ips. File SHA-256 values were checked against owner-supplied values. Patched-ROM hashes are owner-supplied. The enhanced edition displays Ver WS+ TC v2. New homepage copy and cropped KV, progress/translation labels, and the global top reminder are applied. Project pages show 目前版本 and By DIGIKIDULT; placeholder introductions, old Ver.WS development entries, next-step display and progress-source disclaimer were removed. CMS export preserves the updated layout by using the current index.html. After installing a manual site update, back up any previous CMS draft and use 重新載入網站資料 to start from the latest published data instead of re-exporting an older draft.
